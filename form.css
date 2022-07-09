@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap");
+body {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+    font-family: "Montserrat";
+}
+
+.form label {
+    display: flex;
+    align-content: flex-start;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    font-size: 0.7rem;
+    color: white;
+    cursor: pointer;
+}
+
+.form label:hover {
+    text-decoration: underline;
+}
+
+.container {
+    background-color: #0047ab;
+    margin-top: 7rem;
+    width: 180px;
+    padding: 2rem;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    border-radius: 5px;
+    position: relative;
+    bottom: 4rem;
+}
+
+.header-title {
+    cursor: pointer;
+    color: white;
+    font-size: 0.8rem;
+    margin-bottom: 2rem;
+}
+
+.header-title:hover {
+    text-decoration: underline;
+}
+
+#submitBtn {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-right: 3rem;
+    padding-left: 3rem;
+    border-radius: 5px;
+    margin-top: 2rem;
+    margin-left: 1.5em;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+}
+
+#submitBtn:hover {
+    background-color: #0040ff;
+    border: 2px solid white;
+    color: white;
+}
+
+#input {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-radius: 5px;
+    border: none;
+}
+
+#input::placeholder {
+    font-size: 0.6rem;
+}
